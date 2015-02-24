@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        // Add conditional code here to navigate to TabBarController with UserManager.
+        // Add conditional code here to navigate to TabBarController with checkingForUser with UserManager.
         
         return true
     }
