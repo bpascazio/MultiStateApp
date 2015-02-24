@@ -24,6 +24,15 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="aN4-4Q-WiB" secondAttribute="bottom" constant="214" id="6QV-x3-XQf"/>
+                            <constraint firstItem="VSk-hS-snR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="277" id="9ah-jd-col"/>
+                            <constraint firstItem="aN4-4Q-WiB" firstAttribute="top" secondItem="VSk-hS-snR" secondAttribute="bottom" constant="50" id="CET-M9-5np"/>
+                            <constraint firstItem="VSk-hS-snR" firstAttribute="top" secondItem="Zcs-Rl-ONx" secondAttribute="bottom" constant="56" id="CoF-nC-jDL"/>
+                            <constraint firstAttribute="centerX" secondItem="Zcs-Rl-ONx" secondAttribute="centerX" constant="-18.5" id="Uul-99-aVh"/>
+                            <constraint firstItem="aN4-4Q-WiB" firstAttribute="trailing" secondItem="Zcs-Rl-ONx" secondAttribute="trailing" id="au0-xT-X9d"/>
+                            <constraint firstAttribute="trailing" secondItem="aN4-4Q-WiB" secondAttribute="trailing" constant="258" id="oP2-db-83m"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
