@@ -16,26 +16,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSk-hS-snR">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSk-hS-snR">
                                 <rect key="frame" x="277" y="285" width="84" height="30"/>
                                 <state key="normal" title="Push button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zcs-Rl-ONx">
-                                <rect key="frame" x="298" y="223" width="47" height="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aN4-4Q-WiB">
+                                <rect key="frame" x="300" y="365" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aN4-4Q-WiB">
-                                <rect key="frame" x="300" y="365" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zcs-Rl-ONx">
+                                <rect key="frame" x="295" y="206" width="47" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="aN4-4Q-WiB" secondAttribute="bottom" constant="214" id="6QV-x3-XQf"/>
+                            <constraint firstItem="VSk-hS-snR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="277" id="9ah-jd-col"/>
+                            <constraint firstItem="aN4-4Q-WiB" firstAttribute="top" secondItem="VSk-hS-snR" secondAttribute="bottom" constant="50" id="CET-M9-5np"/>
+                            <constraint firstItem="VSk-hS-snR" firstAttribute="top" secondItem="Zcs-Rl-ONx" secondAttribute="bottom" constant="56" id="CoF-nC-jDL"/>
+                            <constraint firstAttribute="centerX" secondItem="Zcs-Rl-ONx" secondAttribute="centerX" constant="-18.5" id="Uul-99-aVh"/>
+                            <constraint firstItem="aN4-4Q-WiB" firstAttribute="trailing" secondItem="Zcs-Rl-ONx" secondAttribute="trailing" id="au0-xT-X9d"/>
+                            <constraint firstAttribute="trailing" secondItem="aN4-4Q-WiB" secondAttribute="trailing" constant="258" id="oP2-db-83m"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
