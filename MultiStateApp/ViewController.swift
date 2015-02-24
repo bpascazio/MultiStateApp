@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Pace. All rights reserved.
 //
 
+
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -24,5 +26,11 @@ class ViewController: UIViewController {
 	
 //MARK: Other Functions by Elena
 
+    
+    //MARK: Other Functions by Youngmo
+    
+    
+    
+    
 }
 
