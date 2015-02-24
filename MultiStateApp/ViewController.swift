@@ -21,6 +21,8 @@ class ViewController: UIViewController {
     }
 
 //MARK: Other Functions
+	
+//MARK: Other Functions by Elena
 
 }
 
